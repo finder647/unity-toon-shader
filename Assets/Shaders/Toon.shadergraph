@@ -10,7 +10,17 @@
             "m_Id": "4bfe1bbef64d41658e57447cad45b8c5"
         }
     ],
-    "m_Keywords": [],
+    "m_Keywords": [
+        {
+            "m_Id": "422d13decb65415690964cfa8dd5a89b"
+        },
+        {
+            "m_Id": "38b5f54fd5d946ac99956c6cd66d4152"
+        },
+        {
+            "m_Id": "e4ee3bf34dd74c98bfa123788a1df2f2"
+        }
+    ],
     "m_Nodes": [
         {
             "m_Id": "29349f1d6b6f48c8aa79b67138080379"
@@ -398,6 +408,25 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.ShaderKeyword",
+    "m_ObjectId": "38b5f54fd5d946ac99956c6cd66d4152",
+    "m_Guid": {
+        "m_GuidSerialized": "61247c0f-2168-4a47-9a51-1d780de89c5b"
+    },
+    "m_Name": "Shadows Cascade",
+    "m_DefaultReferenceName": "",
+    "m_OverrideReferenceName": "_MAIN_LIGHT_SHADOWS_CASCADE",
+    "m_GeneratePropertyBlock": true,
+    "m_KeywordType": 0,
+    "m_KeywordDefinition": 1,
+    "m_KeywordScope": 0,
+    "m_Entries": [],
+    "m_Value": 1,
+    "m_IsEditable": true
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicValueMaterialSlot",
     "m_ObjectId": "405487a7051845458573984b0ce36d5d",
     "m_Id": 1,
@@ -442,6 +471,25 @@
         "e32": 0.0,
         "e33": 1.0
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.ShaderKeyword",
+    "m_ObjectId": "422d13decb65415690964cfa8dd5a89b",
+    "m_Guid": {
+        "m_GuidSerialized": "90a25060-452c-4a9a-99d8-8bf03f57fb1b"
+    },
+    "m_Name": "Shadows",
+    "m_DefaultReferenceName": "BOOLEAN_422D13DECB65415690964CFA8DD5A89B_ON",
+    "m_OverrideReferenceName": "MAIN_LIGHT_CALCULATE_SHADOWS",
+    "m_GeneratePropertyBlock": true,
+    "m_KeywordType": 0,
+    "m_KeywordDefinition": 1,
+    "m_KeywordScope": 0,
+    "m_Entries": [],
+    "m_Value": 1,
+    "m_IsEditable": true
 }
 
 {
@@ -1008,10 +1056,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -330.99993896484377,
-            "y": 195.99998474121095,
+            "x": -331.0000305175781,
+            "y": 196.0,
             "width": 208.0,
-            "height": 326.0
+            "height": 326.0000305175781
         }
     },
     "m_Slots": [
@@ -1107,6 +1155,25 @@
         "z": 0.0
     },
     "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.ShaderKeyword",
+    "m_ObjectId": "e4ee3bf34dd74c98bfa123788a1df2f2",
+    "m_Guid": {
+        "m_GuidSerialized": "198e4ecb-9beb-47e6-a92c-b46639cef919"
+    },
+    "m_Name": "Soft Shadows",
+    "m_DefaultReferenceName": "",
+    "m_OverrideReferenceName": "_SOFT_SHADOWS",
+    "m_GeneratePropertyBlock": true,
+    "m_KeywordType": 0,
+    "m_KeywordDefinition": 1,
+    "m_KeywordScope": 0,
+    "m_Entries": [],
+    "m_Value": 1,
+    "m_IsEditable": true
 }
 
 {
