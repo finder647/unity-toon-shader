@@ -532,7 +532,7 @@
     "m_GeneratePropertyBlock": true,
     "m_KeywordType": 0,
     "m_KeywordDefinition": 1,
-    "m_KeywordScope": 0,
+    "m_KeywordScope": 1,
     "m_Entries": [],
     "m_Value": 1,
     "m_IsEditable": true
@@ -599,7 +599,7 @@
     "m_GeneratePropertyBlock": true,
     "m_KeywordType": 0,
     "m_KeywordDefinition": 1,
-    "m_KeywordScope": 0,
+    "m_KeywordScope": 1,
     "m_Entries": [],
     "m_Value": 1,
     "m_IsEditable": true
@@ -1633,7 +1633,7 @@
     "m_GeneratePropertyBlock": true,
     "m_KeywordType": 0,
     "m_KeywordDefinition": 1,
-    "m_KeywordScope": 0,
+    "m_KeywordScope": 1,
     "m_Entries": [],
     "m_Value": 1,
     "m_IsEditable": true
