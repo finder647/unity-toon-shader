@@ -11,6 +11,9 @@
         },
         {
             "m_Id": "a4dc50dbe1cc4fc1833b90d05c0b4ef1"
+        },
+        {
+            "m_Id": "0451fd4436254dfda35421b8b6eabb71"
         }
     ],
     "m_Keywords": [],
@@ -38,6 +41,9 @@
         },
         {
             "m_Id": "954ddeff945147b08bc82c027e2081ef"
+        },
+        {
+            "m_Id": "adc3eaa905f347a5b2db808b9820dc80"
         }
     ],
     "m_GroupDatas": [],
@@ -83,6 +89,20 @@
                     "m_Id": "f09ebe27de7740fa8c9fefc1b7621148"
                 },
                 "m_SlotId": 0
+            }
+        },
+        {
+            "m_OutputSlot": {
+                "m_Node": {
+                    "m_Id": "adc3eaa905f347a5b2db808b9820dc80"
+                },
+                "m_SlotId": 0
+            },
+            "m_InputSlot": {
+                "m_Node": {
+                    "m_Id": "907e012379934d729cb8dd33ac416dbd"
+                },
+                "m_SlotId": 2
             }
         },
         {
@@ -171,6 +191,29 @@
 }
 
 {
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
+    "m_ObjectId": "0451fd4436254dfda35421b8b6eabb71",
+    "m_Guid": {
+        "m_GuidSerialized": "3dc31110-5f2d-4ac6-9883-f07ea1119b63"
+    },
+    "m_Name": "RampSamplerV",
+    "m_DefaultReferenceName": "Vector1_0451fd4436254dfda35421b8b6eabb71",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": 0.0,
+    "m_FloatType": 0,
+    "m_RangeValues": {
+        "x": 0.0,
+        "y": 1.0
+    }
+}
+
+{
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector3MaterialSlot",
     "m_ObjectId": "2632412d191b4b168175d3d2564089c4",
@@ -202,6 +245,21 @@
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "R",
+    "m_StageCapability": 3,
+    "m_Value": 0.0,
+    "m_DefaultValue": 0.0,
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
+    "m_ObjectId": "2d0b49a92ac34f63897f55660e885b32",
+    "m_Id": 0,
+    "m_DisplayName": "RampSamplerV",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Out",
     "m_StageCapability": 3,
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
@@ -724,6 +782,40 @@
         "y": 0.0
     },
     "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.PropertyNode",
+    "m_ObjectId": "adc3eaa905f347a5b2db808b9820dc80",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Property",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -593.0,
+            "y": 2.0000009536743166,
+            "width": 156.0,
+            "height": 34.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "2d0b49a92ac34f63897f55660e885b32"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_Property": {
+        "m_Id": "0451fd4436254dfda35421b8b6eabb71"
+    }
 }
 
 {
