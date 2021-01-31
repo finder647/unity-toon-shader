@@ -22,6 +22,9 @@
         },
         {
             "m_Id": "e4ee3bf34dd74c98bfa123788a1df2f2"
+        },
+        {
+            "m_Id": "124e7f6355a44ef582cc313ca0a66845"
         }
     ],
     "m_Nodes": [
@@ -363,6 +366,25 @@
     "m_Property": {
         "m_Id": "af11ee623533481a99dc9379c558a17b"
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.ShaderKeyword",
+    "m_ObjectId": "124e7f6355a44ef582cc313ca0a66845",
+    "m_Guid": {
+        "m_GuidSerialized": "7e6777ee-867c-43ee-a5d1-abf5e7b265d7"
+    },
+    "m_Name": "Additional Shadows",
+    "m_DefaultReferenceName": "BOOLEAN_124E7F6355A44EF582CC313CA0A66845_ON",
+    "m_OverrideReferenceName": "ADDITIONAL_LIGHT_CALCULATE_SHADOWS",
+    "m_GeneratePropertyBlock": true,
+    "m_KeywordType": 0,
+    "m_KeywordDefinition": 1,
+    "m_KeywordScope": 1,
+    "m_Entries": [],
+    "m_Value": 1,
+    "m_IsEditable": true
 }
 
 {
@@ -842,15 +864,15 @@
     "m_Group": {
         "m_Id": ""
     },
-    "m_Name": "Calculate Lights",
+    "m_Name": "CalculateLights",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -700.9999389648438,
-            "y": 238.0,
-            "width": 208.0,
-            "height": 302.0
+            "x": -741.0000610351563,
+            "y": 262.0,
+            "width": 212.0,
+            "height": 326.0
         }
     },
     "m_Slots": [
@@ -941,7 +963,7 @@
     "m_Group": {
         "m_Id": ""
     },
-    "m_Name": "Calculate Lighting Ramp",
+    "m_Name": "CalculateLightingRamp",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
@@ -1035,7 +1057,7 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
-    "m_Value": 0.5,
+    "m_Value": 0.0,
     "m_FloatType": 1,
     "m_RangeValues": {
         "x": 0.0,
@@ -1257,8 +1279,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -982.0,
-            "y": 280.0,
+            "x": -958.0,
+            "y": 301.0000305175781,
             "width": 142.0,
             "height": 34.0
         }
@@ -1470,7 +1492,7 @@
     "m_Group": {
         "m_Id": ""
     },
-    "m_Name": "Calculate Lighting Ramp",
+    "m_Name": "CalculateLightingRamp",
     "m_DrawState": {
         "m_Expanded": true,
         "m_Position": {
